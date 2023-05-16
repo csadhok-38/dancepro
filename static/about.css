@@ -1,0 +1,25 @@
+#aboutsection11
+{
+    display:flex;
+    flex-direction: column;
+}
+
+#aboutsection111
+{
+    display:flex;
+    flex-direction:row;
+    color:white;
+    
+}
+
+#aboutsection111 div{
+    margin:110px;
+}
+
+#section112img >img{
+    width:91vw;
+    height:86vh;
+    margin:60px;
+}
+
+

@@ -1,0 +1,33 @@
+
+extends base.pug
+
+//- block scripts 
+     
+
+block style 
+    style                  
+        include ../static/Home.css
+        include ../static/contact.css
+block content 
+    nav#nav
+        ul 
+            li  #[a.navel(href='/') Home]
+
+            li  #[a.navel(href='/about') about]
+
+            li  #[a.navel(href='/contact') Contact us]
+
+            li  #[a.navel(href='/join') join us]
+    
+    form#forms(action='/join', method='post')
+        h2#contactheading upload resume
+        input.formelement(type="file" name="usresume" placeholder="usresume")
+        
+        button#btn1(type="submit") Submit
+        
+
+
+
+
+    #footer 
+       h3#heading5 All right reserved Copyright @ Adarsh Mishra

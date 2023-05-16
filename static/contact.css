@@ -1,0 +1,55 @@
+#forms
+{
+    border-radius: 10px;
+    display:flex;
+    flex-direction: column;
+    gap:17px;
+    width:35vw;
+    height:44vh;
+    margin:auto;
+    margin-top: 25vh;
+    margin-bottom:25vh;
+    overflow: auto;
+    background-color: #252531;
+    color:white;
+    padding:10px;
+
+    
+    
+}
+
+.formelement{
+    width:25vw;
+    margin:auto;
+    font-size: medium;
+    border-radius: 4px;
+}
+
+#contactheading{
+    text-align: center;
+}
+
+#btn1{
+    width:5vw;
+    display: inline-block;
+    margin:auto;
+    cursor:pointer;
+    border-radius: 5px;
+    font-weight: bolder;
+}
+
+body{
+    background-color:rgb(230 163 214);
+}
+
+#btn1:hover{
+    border:2px solid pink;
+    color:pink;
+    background-color: black;
+    
+}
+
+#forms:hover{
+    border:2px solid white;
+}
+

@@ -1,0 +1,34 @@
+extends base.pug
+
+//- block scripts 
+     
+
+block style 
+    style                  
+        include ../static/Home.css
+        include ../static/contact.css
+block content 
+    nav#nav
+        ul 
+            li  #[a.navel(href='/') Home]
+
+            li  #[a.navel(href='/about') about]
+
+            li  #[a.navel(href='/contact') Contact us]
+
+            li  #[a.navel(href='/join') join us]
+    
+    form#forms(action='/contact', method='post')
+        h2#contactheading Get Connected
+        input.formelement(type="text" name="username" placeholder="username")
+        input.formelement(type="email" name="email" placeholder="xyz@gmail.com")
+        input.formelement(type="number" name="contact" placeholder="contact no.")
+        input.formelement(type="text" name="message" placeholder="message")
+        button#btn1(type="submit") Submit
+        
+
+
+
+
+    #footer 
+       h3#heading5 All right reserved Copyright @ Adarsh Mishra

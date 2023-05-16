@@ -1,0 +1,36 @@
+extends base.pug
+
+block style
+    style 
+        include ../static/Home.css
+        include ../static/contact.css
+        include ../static/about.css
+
+
+block content 
+    nav#nav
+        ul 
+            li  #[a.navel(href='/') Home]
+
+            li  #[a.navel(href='/about') about]
+
+            li  #[a.navel(href='/contact') Contact us]
+
+            li  #[a.navel(href='/join') join us]
+
+    div#aboutsection1
+        div#aboutsection11
+            div#aboutsection111
+                div
+                    h1 About 
+                div 
+                    h2 Dance school is a foundation founded in 2002 by our founder Adarsh Mishra.He is a well-knowned choreographer and has contributed in various dance performances as a coach all over the world .With the vision in mind to lift every flickering wish to perform and stand as an dance professional in India,he build this hope. We in total today are a team of 500 individuals who are eagerely waiting for training new talents.So don't be bound,just bounce and dance!!
+
+            div#aboutsection112
+                div#section112img
+                    //- img(src='https://openaicom.imgix.net/1a9c00bc-8f3a-4601-b901-1f1e0c3c0984/stangel-2022-0527.jpg?auto=compress%2Cformat&fit=min&fm=jpg&q=80&rect=0%2C522%2C3840%2C2157&w=2000',alt='logo')  
+                    img(src='https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/01efc6136200725.Y3JvcCwxMzA5LDEwMjQsNiww.jpg',alt='logo')       
+
+
+        div#aboutsection12
+            div            
